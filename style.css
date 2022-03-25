@@ -1,0 +1,46 @@
+.container{
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    top: 45%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.heading {
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+table{
+    background: rgb(100, 100, 235);
+}
+
+textarea {
+   overflow: scroll;
+}
+
+.merge{
+    width: 98%;
+}
+td{
+    padding: 3px;
+}
+#send-button{
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 65%;
+    text-align: center;
+    border: none;
+    font-size: x-large;
+    color: white;
+    padding: 5px;
+    transform: translateX(-50%);
+    
+}
+
+#send-button:hover{
+    box-shadow: 0 0 10px 0 black;
+}
